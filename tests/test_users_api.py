@@ -43,6 +43,7 @@ def test_update_users(api_client):
         "username":"qa user",
         "email":"test@gmail.com"
     }
+
     response = api_client.put("users/1", user_data)
     print(response.json())
     assert response.status_code == 200
