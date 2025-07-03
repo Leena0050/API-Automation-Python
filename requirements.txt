@@ -1,0 +1,4 @@
+# it wil read from here and install in your system
+pytest
+requests
+pytest-html
