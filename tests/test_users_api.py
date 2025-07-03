@@ -13,6 +13,12 @@ def test_get_users(api_client):
     assert len(response.json()) > 0
 
 
+
+
+
+
+
+
 def test_create_users(api_client,load_user_data):
     # user_data = {
     #     "name": "prasanth",
