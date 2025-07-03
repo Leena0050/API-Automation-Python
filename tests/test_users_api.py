@@ -36,7 +36,7 @@ def test_create_users(api_client,load_user_data):
     assert responseget.status_code == 200
     assert responseget.json()['name'] == 'Clementina DuBuque'
 
-
+# update
 def test_update_users(api_client):
     user_data = {
         "name": "prasanth k",
